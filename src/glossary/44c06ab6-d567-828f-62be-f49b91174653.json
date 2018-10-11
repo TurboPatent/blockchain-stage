@@ -1,0 +1,4 @@
+{
+  "term": "accidental fork",
+  "definition": "a branching in the chain that happens when two or more miners find a block at nearly the same time. The fork is resolved when subsequent block(s) are added and one of the chains becomes longer than the alternative(s). The network abandons the blocks that are not in the longest chain (they are called orphaned blocks)."
+}

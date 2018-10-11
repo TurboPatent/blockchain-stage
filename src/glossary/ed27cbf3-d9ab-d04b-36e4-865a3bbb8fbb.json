@@ -1,0 +1,4 @@
+{
+  "term": "private blockchain",
+  "definition": "(i.e., permissioned blockchains) blockchains that use an access control layer to govern who has access to the network. In contrast to public blockchain networks, validators on private blockchain networks are vetted by the network owner. They do not rely on anonymous nodes to validate transactions nor do they benefit from the network effect. Private blockchains can also go by the name of 'consortium' or 'hybrid' blockchains."
+}

@@ -1,0 +1,4 @@
+{
+  "term": "hard fork",
+  "definition": " a rule change such that the software validating blocks according to the old rules will detect the blocks produced according to the new rules as invalid."
+}

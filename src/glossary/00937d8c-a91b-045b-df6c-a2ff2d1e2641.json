@@ -1,0 +1,4 @@
+{
+  "term": "soft fork",
+  "definition": "a change of rules that creates blocks recognized as valid by the old software, i.e. it is backwards-compatible."
+}

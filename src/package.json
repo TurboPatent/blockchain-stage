@@ -1,0 +1,126 @@
+{
+  "name": "blockchain-stage",
+  "description": "Blockchain",
+  "owner": {
+    "login": "TurboPatent",
+    "type": "organization"
+  },
+  "license": "MIT",
+  "isPrivate": false,
+  "details": {
+    "counts": {
+      "termCount": 0,
+      "claimCount": 1,
+      "independentCount": 1,
+      "drawingCount": 3,
+      "glossaryCount": 8
+    },
+    "briefDescriptions": [
+      "<p><b>Fig. 1</b> illustrates a <span data-role=\"tag\" data-value=\"d1956aaa-bd71-8064-d8ad-11004bbf1cb2\" id=\"id9c6ad161-8627-9817-587b-18e94e78f01b\" data-type=\"drawingObject\">blockchain transaction process 100</span> in accordance with one embodiment.</p>",
+      "<p><b>Fig. 2</b> illustrates a <span data-role=\"tag\" data-value=\"15875638-0daa-70b5-268f-0fc488e1035f\" id=\"ide0ac52d6-c221-3946-5978-d0b6ee9b7511\" data-type=\"drawingObject\">blockchain formation 200</span> in accordance with one embodiment.</p>",
+      "<p><b>Fig. 3</b> illustrates a <span data-role=\"tag\" data-value=\"0618ff7d-aa77-9cbe-558f-6822cdb9f654\" id=\"ide65b683d-7a39-c391-ef8d-3a51d23239a3\" data-type=\"drawingObject\">blockchain 300</span> in accordance with one embodiment.</p>"
+    ],
+    "parts": [
+      {
+        "name": "blockchain transaction process",
+        "number": 100
+      },
+      {
+        "name": "transaction requesting device",
+        "number": 102
+      },
+      {
+        "name": "blockchain formation",
+        "number": 200
+      },
+      {
+        "name": "start block",
+        "number": 202
+      },
+      {
+        "name": "mainchain",
+        "number": 204
+      },
+      {
+        "name": "orphan blocks",
+        "number": 206
+      },
+      {
+        "name": "blockchain",
+        "number": 300
+      },
+      {
+        "name": "transaction 1",
+        "number": 302
+      },
+      {
+        "name": "transaction 2",
+        "number": 304
+      },
+      {
+        "name": "transaction 3",
+        "number": 306
+      },
+      {
+        "name": "block 1 owner public key",
+        "number": 308
+      },
+      {
+        "name": "block 2 owner public key",
+        "number": 310
+      },
+      {
+        "name": "block 3 owner public key",
+        "number": 312
+      },
+      {
+        "name": "O(0) signature",
+        "number": 314
+      },
+      {
+        "name": "O(1) signature",
+        "number": 316
+      },
+      {
+        "name": "O(2) signature",
+        "number": 318
+      }
+    ],
+    "terms": [],
+    "glossary": [
+      {
+        "term": "smart contract",
+        "definition": "smart contracts are contracts that can be partially or fully executed or enforced without human interaction.[85] One of the main objectives of a smart contract is automated escrow. The IMF believes smart contracts based on blockchain technology could reduce moral hazards and optimize the use of contracts in general.[86] Due to the lack of widespread use their legal status is unclear.[86]\n\nablockchain implementation that enables the coding of contracts that execute when specified conditions are met. A blockchain smart contract is enabled by logic that defines and executes an agreement. For example, Ethereum Solidity is an open-source blockchain project that was built specifically to realize this possibility by implementing a Turing-complete programming language capability to implement smart contracts."
+      },
+      {
+        "term": "block time",
+        "definition": "the average time it takes for the network to generate one extra block in the blockchain."
+      },
+      {
+        "term": "accidental fork",
+        "definition": "a branching in the chain that happens when two or more miners find a block at nearly the same time. The fork is resolved when subsequent block(s) are added and one of the chains becomes longer than the alternative(s). The network abandons the blocks that are not in the longest chain (they are called orphaned blocks)."
+      },
+      {
+        "term": "orphaned blocks",
+        "definition": "blocks in an abandoned fork."
+      },
+      {
+        "term": "fork",
+        "definition": "what happens when a blockchain diverges into two potential paths forward."
+      },
+      {
+        "term": "private blockchain",
+        "definition": "(i.e., permissioned blockchains) blockchains that use an access control layer to govern who has access to the network. In contrast to public blockchain networks, validators on private blockchain networks are vetted by the network owner. They do not rely on anonymous nodes to validate transactions nor do they benefit from the network effect. Private blockchains can also go by the name of 'consortium' or 'hybrid' blockchains."
+      },
+      {
+        "term": "hard fork",
+        "definition": " a rule change such that the software validating blocks according to the old rules will detect the blocks produced according to the new rules as invalid."
+      },
+      {
+        "term": "soft fork",
+        "definition": "a change of rules that creates blocks recognized as valid by the old software, i.e. it is backwards-compatible."
+      }
+    ]
+  },
+  "repository": "https://github.com/TurboPatent/blockchain-stage"
+}
